@@ -14,7 +14,7 @@ const StyledImage = styled(Image)`
 
 const StyledHeart = styled(Heart)`
   width: 15px;
-  fill: "pink";
+  fill: "red";
 `;
 
 const StyledLink = styled(Link)`
@@ -33,7 +33,7 @@ export default function HomePage() {
           <StyledListItems key={city.id}>
             <StyledLink href={`cities/${city.slug}`}>
               <RightArrow />
-              {city.country}
+              {city.name}
               <StyledHeart />
             </StyledLink>
           </StyledListItems>

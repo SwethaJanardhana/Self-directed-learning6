@@ -31,7 +31,7 @@ export default function CityDetails() {
         <title>{country}</title>
       </Head>
       <StyledSection>
-        <h1>{country}</h1>
+        <h1>Country : {country}</h1>
         <h2>Capital City : {capital}</h2>
         <p>Population : {population}</p>
         <article>
